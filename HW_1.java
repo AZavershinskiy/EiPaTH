@@ -32,7 +32,7 @@ public class HW_1 {
         return sum;
     }
 
-    public static int[] arrDiff(int[] arr1, int[] arr2) throws RuntimeException {
+    public static int[] arrDiff(int[] arr1, int[] arr2) {
         if (arr1.length != arr2.length) {
             throw new RuntimeException("Error! Arrays differ in length");
         } else {
